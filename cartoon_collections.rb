@@ -8,10 +8,10 @@ end
 def summon_captain_planet(array)
   caps_calls = []
   array.map do |e|
-    caps = e.capitalize
-    caps_calls << "#{caps}!"
+    # caps = e.capitalize
+    caps_calls << "#{e.capitalize}!"
   end
-  caps_calls  
+  caps_calls
 end
 
 def long_planeteer_calls# code an argument here
