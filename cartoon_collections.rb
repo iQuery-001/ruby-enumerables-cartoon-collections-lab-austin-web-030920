@@ -6,10 +6,12 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
+  caps_calls = []
   array.map do |e|
-    "#{e.capitalize}!"
+    caps = e.capitalize
+    caps_calls << "#{caps}!"
   end
-  array
+  caps_calls  
 end
 
 def long_planeteer_calls# code an argument here
