@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(array)
   caps_calls = []
-  array.map do |e|
+  array.each do |e|
     # caps = e.capitalize
     caps_calls << "#{e.capitalize}!"
   end
